@@ -1,0 +1,47 @@
+.info {
+  width: 100%;
+  display: flex;
+  gap: 2rem;
+  padding: 4rem 2rem;
+}
+
+.card {
+  width: calc(100% / 3);
+  border: 1px solid green;
+  padding: 2rem;
+}
+
+h1 {
+  margin-bottom: 2rem;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+  transition: all 1s ease-in-out ;
+}
+
+.ope {
+  width: 100%;
+}
+.operations {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.operations ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+.card ul li {
+  margin-right: 1rem;
+  border: 1px solid black;
+  width: 30%;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+

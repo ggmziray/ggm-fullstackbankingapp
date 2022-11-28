@@ -1,0 +1,58 @@
+.home {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-image: url(https://i.ibb.co/tHPRjJH/pexels-expect-best-351264.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.home img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background-repeat: no-repeat;
+}
+.layer {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.665);
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+
+  padding: 5rem;
+}
+.layer_cont {
+  justify-content: center;
+  align-items: center;
+  border: 5px solid white;
+  border-radius: 10px;
+  width: 50%;
+  padding: 2rem;
+  backdrop-filter: blur(5px);
+}
+.layer_cont > * {
+  color: white;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.buttons {
+  display: flex;
+  gap: 1rem;
+  color: white;
+}
+.buttons a {
+  text-decoration: none;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.606);
+  border-radius: 10px;
+  padding: 0.5rem 1rem;
+}
+
+.buttons a:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: black;
+}
