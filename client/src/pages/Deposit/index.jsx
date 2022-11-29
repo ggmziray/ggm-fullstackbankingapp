@@ -41,7 +41,7 @@ const Deposit = () => {
       <Navbar />
       <div className="info">
         <div className="card">
-          <h1>Deposet</h1>
+          <h1>Deposit</h1>
           <Input
             type="number"
             min="0"
