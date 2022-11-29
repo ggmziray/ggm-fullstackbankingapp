@@ -8,7 +8,7 @@ const Home = () => {
       <div className="layer">
         <div className="layer_cont">
           <h1>Welcome!</h1>
-          <h2>Welcome to the best bank in the world!</h2>
+          <h2>This is the best bank in the world!</h2>
           <h3>Sign up or log in to start using our services</h3>
 
           <div className="buttons">
