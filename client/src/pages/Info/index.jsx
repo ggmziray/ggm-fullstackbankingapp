@@ -82,7 +82,7 @@ const Info = () => {
       <div className="info">
         <div className="card">
           <h1>Balance</h1>
-          <h1>You current Blance is : {balance}</h1>
+          <h1>You current Balance is : {balance}</h1>
         </div>
           {/* <div className="card">
             <h1>Withdraw</h1>
@@ -105,7 +105,7 @@ const Info = () => {
         </div> */}
       </div>
       <div className="card ope">
-        <h1>Operations</h1>
+        <h1>Data</h1>
         <div className="operations">
           {operations.map((operation) => {
             return (
